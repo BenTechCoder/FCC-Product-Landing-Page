@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Product-Landing-Page</title>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="header">  
+        <div class="logo">
+        <img id="header-img"
+        src="https://upload.wikimedia.org/wikipedia/commons/c/cb/TuxGuitar_Logo.png"
+        alt="guitar logo"
+        />
+        <h1 id="title">Iceberg Guitars</h1>
+        </div>
+        
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Guitars</a></li>
+            <li><a class="nav-link" href="#how-to-order">How to order</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+        </nav>
+        </header>
+        
+        <div class="container"></div>
+        
+        <section id="hero">
+            <h2 id="form-header">Made from scratch, high-quality Guitars</h2>
+            
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input 
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter Email here"
+            required
+            />
+            <input
+            id="submit"
+            type="submit"
+            value="Get Started"
+            class="button"
+            /> 
+            </form>
+        </section>
+        
+        <div class="container">
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-guitar"></i>
+                </div>
+                <div class="description">
+                    <h2>Premium Materials</h2>
+                    <p>Made in the heart of Alaska, Iceberg Guitars uses Sitka Spruce timber to carefully craft each Axe.  Built to last from the Yukon to New York with no cracks or dents.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"> 
+                    <i class="fas fa-shipping-fast"></i>
+                </div>
+                <div class="description">
+                    <h2>Shipping details</h2>
+                    <p>Our remote location in Alaska makes it harder to ship products to the US and even harder to ship products abroad. Please forgive the wait times and delays, we believe that our location is an advantage when it comes to building the best Acoustic and Electric Guitars we can make.
+                        We make sure each Guitar is on it's way right after we make it for quick and speedy shipping. If your not satisfied with your purchase we'll provide free returns at no extra charge.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-tags"></i>
+                </div>
+                <div class="description">
+                    <h2>Reasonable Pricing</h2>
+                    <p>We optimize our sources to make sure we can offer premium guitars at a reasonable price. With our tier system you can buy a guitar at every price point from 200$ to 1,000$. 
+                        This lets anyone make music with a quality Guitar.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="how-to-order">
+            <!--The link is a place holder until I find a Guitar-related link-->
+            <iframe id="video" width="818" height="461" src="https://www.youtube.com/embed/ZulHB_cW5IA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <section id="pricing">
+            <div class="product" id="bronze-tier">
+                <div class="level">Bronze-Tier Guitars</div>
+                <h2>150$-250$</h2>
+                <ol>
+                    <li>The Bronze Pick:
+                        Our Budget Acoustic Guitar, made for beginners and budgets, at the low price of 150$
+                    </li>
+                    <li>The Bronze Pickaxe: A 230$ Acoustic-electric guitar, great for those who need an Acoustic that can get Loud</li>
+                    <li>The Bronze Jackhammer: A 250$ Electric Guitar that's great for those who want to jump into Electric at a low price.</li>
+                </ol>
+                <button class="button">Select</button>
+            </div>
+            <div class="product" id="silver-tier">
+                <div class="level">Silver-Tier Guitars</div>
+                <h2>400$-700$</h2>
+                <ol>
+                    <li>The Silver pick: An 400$ acoustic guitar made for those who love to play, this Guitar comes with premium material and premium sound with different size options for every person.  If Guitar is your passion this is your Acoustic Guitar, and we're convinced your gonna love it.</li>
+                <li>The Silver Pickaxe: A Hybrid 600$ option for those ready to invest in their playing, with easy pickups and premium materials this is a Guitar that will never let you down.  From home recording to small gigs get ready to play with the Silver Pickaxe.</li>
+                <li>The Silver Jackhammer: A cunning 700$ Electric Guitar for those ready to rock out, on the stage and off. This Guitar was built to last, with easy-to-swap pickups and premium materials to ensure you never have to let it go.  Allowing you to focus on what's most important: your music.</li>    
+            </ol>
+            <button class="button">Select</button>
+            </div>
+        
+            <div class="product" id="gold-tier">
+                <div class="level">Gold-Tier Guitars</div>
+                <h2>800$-1000$</h2>
+                <ol>
+                    <li>Gold Jackhammer: A 800$ Electric Guitar Made for Pros wanting the best sound and quality you can get.  Increased playability to help to make this Guitar the best Guitar we can offer to pros and premium buyers alike. </li>
+                <li>Gold Sonar: A 1000$ Hybrid like no other; a Hybrid Guitar that can play your fingerstyle and Rock riffs.  With a small resonator it can be a true Acoustic, when you plug in you can switch between the Acoustic pickup or Single-coil for a a true Electric experience.</li>
+                </ol>
+                <button class="button">Select</button>
+            </div>
+        </section>
+        
+        <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2020, Cy499_Studios/BenTechCoder</span>
+        </footer>
+        </div>
+        </div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://kit.fontawesome.com/ffa42396d3.js" crossorigin="anonymous"></script>
+</html>l
